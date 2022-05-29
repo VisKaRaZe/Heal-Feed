@@ -4,5 +4,6 @@ branches:
 - main
 projects:
   Heal-Feed:
-    path: "icon.png"
+    path: ''
+    icon: 'icon.png'
 ...
