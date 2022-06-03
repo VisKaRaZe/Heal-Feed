@@ -1,20 +1,21 @@
-name: HealANDFeed
+name: HealFeed
 main: viskaraze\HealFeed\Main
-version: 1.0
-api: 4.0.0
+version: 1.0.0
+api:
+- 4.0.0
 author: VisKa_RaZe
 
 commands:
- feed:
-  description: Feed yourslef to max !
-  permission: feed.use
- heal:
-  description: Heal yourslef to max !
-  permission: heal.use
+  feed:
+    description: Feed yourslef to max !
+    permission: HealFeed.feed.use
+  heal:
+    description: Heal yourslef to max !
+    permission: HealFeed.heal.use
 permissions:
-  feed.use:
+  HealFeed.feed.use:
     description: Permission to feed yourself
     default: op
-  heal.use:
+  HealFeed.heal.use:
     description: Permission to heal yourself
     default: op
